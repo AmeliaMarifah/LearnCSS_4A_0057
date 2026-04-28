@@ -4,11 +4,20 @@
     padding: 0;
 }
 
+* h2 {
+    font-size: 3rem;
+    align-items: center;
+}
+
+* p {
+    font-size: 1.2rem;
+}
+
 body {
-    font-family: "Seogo UI";
-    backgroung-color: #0d1117;
+    font-family: Georgia;
+    background-color: #0d1117;
     color: #c9d1d9;
-    line-height: 1.6; 
+    line-height: 1.6;
 }
 
 .accent {
@@ -16,24 +25,10 @@ body {
 }
 
 header {
-    background-color: rgba(26, 28, 32, 0.9);
-    padding: 1rem 4.5rem;
-    display:flex;
-    align-items: center;
+    display: flex;
     justify-content: space-between;
-    top: 0;
-    z-index: 100;
-    border-bottom: 1px solid #3a7ce0; 
-}
-
-nav a {
-    color: #a9c1da;
-    font-size: 0.9rem;
-    text-decoration: none;
-    posistion: relative;
-    padding-bottom: 4px;
-    transition: color  0.3s;
-
+    align-items: center;
+    padding: 1rem 4.5rem; 
 }
 
 nav{
@@ -42,12 +37,22 @@ nav{
     align-items: center;
 }
 
+nav a {
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s;
+}
+
 nav a:hover {
     color: #4d3e3e;
 }
 
+/* Section About */
 #about {
-    background-color: #od1117;
+    background-color: #0d1117;
     padding: 6rem 4.5rem;
     display: flex;
     align-items: center;
@@ -62,9 +67,9 @@ nav a:hover {
 
 .hero-kanan h2 {
     font-size: 3.5rem;
-    font-weigth: 800;
+    font-weight: 800;
     color: #ffffff;
-    margin-bottom: 0.rem;
+    margin-bottom: 0rem;
     line-height: 1.1;
 }
 
@@ -77,10 +82,141 @@ nav a:hover {
     transition: border-color 0.3s;
 }
 
-.hero-kiri p {
-    font-size: 1.2rem;
+/* Section Skill */
+#skill {
+    background-color: #0d1117;
+    padding: 6rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
 }
 
+.skill-hero ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
 
+.skill-hero li {
+    width: 100px;
+    text-align: center;
+}
 
-    
+.skill-hero img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+} 
+
+/* Section Project */
+#project {
+    background-color: #0d1117;
+    padding: 6rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.project-hero {
+    display: flex;
+}
+
+.project-hero div {
+    margin: 10px;
+    padding: 20px;
+    background-color: #3a7ce0;
+    border: #3a7ce0 solid 2px;
+    border-radius: 5px;
+}
+
+.project-hero a {
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Section Education */
+#education {
+    padding: 6rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.box-card {
+    display: flex;
+    space-between: 2rem;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.box-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 1.5rem;
+}
+
+/* Section Experience */
+#experience {
+    background-color: #0d1117;
+    padding: 6rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.experience-hero {
+    display: flex;
+}
+
+.experience-hero div {
+    margin: 10px;
+    padding: 20px;
+    background-color: #3a7ce0;
+    border: #3a7ce0 solid 2px;
+    border-radius: 5px;
+}
+
+/* Section Contact */
+#contact {
+    background-color: #0d1117;
+    padding: 6rem 6rem;
+    align-items: center;
+    gap: 3rem;
+}
+
+.form input {
+    padding: 0.7rem;
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 0.7rem;
+    background-color: #3a7ce0;
+    color: #ffffff;
+    border: 2px solid #3a7ce0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+/* Section footer */
+#footer {
+    background-color: rgba(26, 28, 32, 0.9);
+    padding: 1rem 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
