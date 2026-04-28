@@ -6,5 +6,3 @@
 <img width="1894" height="852" alt="6" src="https://github.com/user-attachments/assets/cabad606-149e-4731-9351-715822332d5c" />
 <img width="1890" height="846" alt="7" src="https://github.com/user-attachments/assets/99257622-0563-47ab-9856-db41a4b38aaa" />
 
-[style.css](https://github.com/user-attachments/files/27167543/style.css)
-[index.html](https://github.com/user-attachments/files/27167547/index.html)[Uploading style.css…]()
