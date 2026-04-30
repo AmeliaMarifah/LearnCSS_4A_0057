@@ -186,28 +186,135 @@ nav a:hover {
 
 /* Section Contact */
 #contact {
+    background-color: #161b22;
+    padding: 5rem 4.5rem;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.Contact-wrapper {
+    display: flex;
+    gap: 2rem;
+    align-items: stretch;
+    text-align: left;
+}
+
+.Contact-info {
+    flex: 1;
     background-color: #0d1117;
-    padding: 6rem 6rem;
+    border: 1px solid #21262d;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.Contact-info h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.info-icon {
+    font-size: 1.3rem;
+    color: #3a7ce0;
+    width: 44px;
+    height: 44px;
+    display: flex;
     align-items: center;
-    gap: 3rem;
+    justify-content: center;
+    background-color: rgba(224, 90, 58, 0.1);
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.info-item .info-label {
+    font-size: 0.78rem;
+    color: #8b949e;
+    margin-bottom: 0.15rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.info-item p {
+    font-size: 0.9rem;
+    color: #c9d1d9;
+}
+
+.form {
+    flex: 1;
+    background-color: #0d1117;
+    border: 1px solid #21262d;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.Contact-wrapper > h3 {
+    display: none;
+}
+
+.form div {
+    margin-bottom: 1rem;
+}
+
+.form label {
+    display: block;
+    font-size: 0.82rem;
+    color: #8b949e;
+    margin-bottom: 0.4rem;
 }
 
 .form input {
-    padding: 0.7rem;
     width: 100%;
-    margin: 10px 0;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 0.7rem 0.9rem;
+    background-color: #161b22;
+    border: 1px solid #21262d;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form input::placeholder {
+    color: #484f58;
+}
+
+.form input:focus {
+    border-color: #e05a3a;
 }
 
 .form button {
-    padding: 0.7rem;
-    background-color: #3a7ce0;
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #e05a3a;
     color: #ffffff;
-    border: 2px solid #3a7ce0;
-    border-radius: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
     cursor: pointer;
-    margin: 15px 0;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.form button:hover {
+    background-color: #3a7ce0;
+    transform: translateY(-2px);
 }
 
 /* Section footer */
